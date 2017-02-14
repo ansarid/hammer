@@ -6,7 +6,7 @@
 # only for legal purpose
 
 
-from queue import Queue
+from multiprocessing import Queue
 from optparse import OptionParser
 import time,sys,socket,threading,logging,urllib.request,random
 
